@@ -1,0 +1,20 @@
+body, html{
+  height: 100%;
+}
+
+#editor {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 100%;
+}
+
+#markdown-preview {
+  position: absolute;
+  overflow: scroll;
+  top: 0;
+  right: 0;
+  width: 50%;
+  height: 100%;
+}
