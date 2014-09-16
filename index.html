@@ -9,7 +9,12 @@
 </head>
 <body>
   <script type='text/x-handlebars' id='application'>
+    <input style="display:none;" id="fileDialog" type="file" />
+    <input style="display:none;" id="fileSave" type="file" nwsaveas="untitled.md" />
+    {{render 'navigation'}}
     {{outlet}}
+  </script>
+  <script type='text/x-handlebars' id='navigation'>
   </script>
   <script type='text/x-handlebars' id='index'>
     <div id="editor">
